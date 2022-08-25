@@ -1,0 +1,55 @@
+body {
+  background-color: #040506;
+}
+
+p {
+  font-family: 'Montserrat', sans-seif;
+  color: white;
+}
+
+.header {
+  position: fixed;
+  background-color: #0e0e10;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  border-bottom-width: 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.twitch-icon {
+  height: 30px;
+}
+
+.following {
+
+}
+
+.mid-section {
+
+}
+
+.right-section {
+
+}
+
+
+.sidebar {
+  position: fixed;
+  background-color:#1a1d24;
+  left: 0;
+  bottom: 0;
+  top: 41px;
+  bottom: 100;
+
+}
