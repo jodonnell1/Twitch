@@ -7,12 +7,15 @@ p {
 
 .header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   height: 50px;
+  border-style: solid;
+  border-width: 0px;
   border-bottom-width: 1px;
   border-bottom-color: black;
   z-index: 100;
@@ -23,28 +26,110 @@ p {
 .left-section {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 305px;
 }
 
 .twitch-icon {
-  height: 26px;
+  height: 29px;
   margin-left: 12px;
   margin-right: 20px;
 }
 
 .following,
 .browse {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
   margin-right: 20px;
+  height: 35px;
 }
 
+
+
+.more-icon {
+  height: 18px;
+  padding-top: 6px;
+}
+
+.mid-section {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  height: 40px;
+  width: 500px;
+  border-width: 1px;
+  border-radius: 9px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.search-icon {
+  height: 20px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 9px;
+  border-radius: 8px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
 
 
 .sidebar {
   position: fixed;
   left: 0;
-  bottom: 0;
   top: 51px;
   bottom: 100;
-
+  border-color: black;
 }
+
+.right-section {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.prime-loot-icon {
+  height: 25px;
+}
+
+.notifications-icon {
+  height: 15px;
+  margin-right: 2px;
+}
+
+.whisper-icon {
+  height: 15px;
+}
+
+.get-bits-icon {
+  height: 15px;
+}
+
+.get-bits-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 8px;
+  padding-right: 8px;
+}
+
+.profile-icon {
+  height: 25px;
+  border-radius: 20px;
+}
+
